@@ -1,0 +1,6 @@
+HTML WEB STORAGE
+
+-> web app can store data locally within the user's browser
+-> inainte de html5, datele trebuiau salvate in cookies, incluse in fiecare server request.
+-> web storage este mult mai securizat, si o cantitate mai mare de informatii pot fi salvate local, fara a afecta performantele web.
+->spre deosebire de cookies, limita de stocare pe web storage este de cel putin 5MB, si datele nu sunt transferate niciodata pe server.

@@ -1,0 +1,26 @@
+<head>
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<div class="title">
+    <img alt="JS logo" class="logoImg" src="javascript.jpg"/>
+    <h1>ToDo App JavaScript</h1>
+</div>
+<div class="app">
+    <header class="header">
+        <input class="box" onkeyup="triggerAdd(event)" placeholder="Add item/s" type="text">
+        <button class="newItem" onclick="addItemFromInput()">+</button>
+    </header>
+    <div class="items"></div>
+    <footer class="footer">
+        <div class="filters" onclick="addActiveClass(event)">
+            <li class="active" onclick="allFilter()">All</li>
+            <li onclick="activeFilter()">Active</li>
+            <li onclick="completedFilter()">Completed</li>
+            <li onclick="clearAllItems()">Clear All</li>
+            <li onclick="clearCompleted()">Clear completed</li>
+        </div>
+    </footer>
+    <div class="nrOfItems"></div>
+</div>
+</div>
